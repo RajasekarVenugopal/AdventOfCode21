@@ -6,7 +6,8 @@ const day3_1 = require("./day-3/puzzle_one");
 const day3_2 = require("./day-3/puzzle_two");
 const day4_1 = require("./day-4/puzzle_one");
 const day4_2 = require("./day-4/puzzle_two");
-const day5_1 = require("./day-5/puzzle_one");
+const day5_1 = require("./day-5/puzzle_one_two");
+const day6_1 = require("./day-6/puzzle_one_two");
 
 console.log("\n\nAdvent of code Day 1");
 day1_1.printIncrements();
@@ -26,3 +27,6 @@ day4_2.printLosingBingoScore();
 
 console.log("\n\nAdvent of code Day 5");
 day5_1.printIntersectionPoints();
+
+console.log("\n\nAdvent of code Day 5");
+day6_1.printTotalNoOfLanterns();
